@@ -1,0 +1,25 @@
+*{
+    /* margin: 0; */
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: red;
+}
+.boxes{
+    display: flex;
+    gap: 10px;
+}
+.box{
+    width:400px;
+    height: 400px;
+    background-color: chocolate;
+}
+@media only screen and (max-width:500px){
+    body{
+        background-color: yellowgreen;
+    }
+    .boxes{
+        flex-direction: column;
+    }
+}
