@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(222, 222, 222);
+}
+.img-box{
+    width: 500px;
+    height: 800px;
+    background-color: rgb(244, 247, 250);
+    position: relative;
+    margin: 20px auto;
+    border: solid 2px rgb(12, 12, 12);
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgb(83, 84, 85);
+    padding: 20px;
+}
+.img{
+    width: 100%;
+    height: 400px;
+    background-image: url(../images/sunflower.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+.button1{
+    position: absolute;
+    width: 100px;
+    height: 40px;
+    margin: 15px;
+    background-color: rgb(244, 247, 250);
+    font-size: 20px;
+    border-radius: 30px;
+    border: 2px solid rgb(115, 115, 115);
+    color: rgb(115, 115, 115);
+    text-align: center;
+    line-height: 35px;
+    display: inline-block;
+}
+.button2{
+    position: absolute;
+    width: 100px;
+    height: 40px;
+    margin: 15px;
+    left: 27%;
+    background-color: rgb(244, 247, 250);
+    font-size: 20px;
+    border-radius: 30px;
+    border: 2px solid rgb(115, 115, 115);
+    color: rgb(115, 115, 115);
+    text-align: center;
+    line-height: 35px;
+    display: inline-block;
+}
+.img-box .h1{
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    top: 63%;
+    left: 5%;
+    font-size: 50px;
+    font-family: 'Fleur De Leah';
+    display: block;
+}
+.img-box p{
+    position: absolute;
+    top: 73%;
+    left: 5%;
+    right: 3%;
+    font-size: 20px;
+    color: rgb(113, 113, 113);
+}
+.button3{
+    position: absolute;
+    width: 150px;
+    height: 50px;
+    margin: 15px;
+    top: 88%;
+    left: 30%;
+    background-color: rgb(192, 220, 248);
+    font-size: 20px;
+    border-radius: 30px;
+    color: rgb(48, 26, 239);
+    text-align: center;
+    line-height: 50px;
+    display: inline-block;
+}
