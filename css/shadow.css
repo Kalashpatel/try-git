@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+h1{
+    text-align: center;
+    margin: 20px;
+    font-size: 70px;
+    color: darkkhaki;
+    font-family: 'Rouge Script';
+    text-decoration: underline;
+}
+.box{
+    width: 500px;
+    height: 500px;
+    margin: 20px auto;
+    background-color: bisque;
+    border: 2px solid burlywood;
+    box-shadow: 30px 30px 15px brown;
+}
+.text{
+    text-shadow: 5px 5px 5px purple;
+}
