@@ -13,7 +13,8 @@
     height: 100px;
     background-color: aqua;
     animation: kalash;
-    animation-duration: 3s;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
 }
 @keyframes kalash{
     from{
