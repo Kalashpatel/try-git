@@ -7,6 +7,7 @@
     width: 700px;
     height: 400px;
     background-color: blueviolet;
+    margin: 20px auto;
 }
 .box1{
     width: 100px;
@@ -22,5 +23,22 @@
     }
     to{
         transform: translateX(1000px);
+    }
+}
+.box2{
+    width: 100px;
+    height: 100px;
+    background-color: crimson;
+    border-radius: 50%;
+    animation: bounce 2s 1s infinite ease-out;
+    animation-direction: alternate-reverse;
+    transition: all 3s ease-in-out;
+}
+@keyframes bounce{
+    0%{ 
+        transform: translateY(300px);
+    }
+    100%{
+
     }
 }
