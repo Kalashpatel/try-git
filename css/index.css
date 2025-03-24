@@ -3,9 +3,13 @@
     padding: 0;
     box-sizing: border-box;
 }
+:root{
+    --gw: 15px;
+    --gh: 15px;
+}
 .background{
     width: 100%;
-    height: 800px;
+    min-height: 900px;
     background-color: rgba(0, 0, 0, 1.5);
     background-blend-mode:multiply;
     background-size: cover;
@@ -20,7 +24,7 @@
     font-size: 120px;
     z-index: -1;
     top: 10%;
-    left: 0%;
+    left: -5%;
     transform: rotate(-90deg) translate(-50%, -50%);
     font-family: 'Rajdhani';
     font-weight: 1500;
@@ -31,4 +35,118 @@
     object-fit: cover;
     z-index: 1;
     background: transparent;
+}
+.hero{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    margin-top: 50px;
+    padding: 30px 50px;
+    margin-left: 50px;
+    /* background-color: bisque; */
+}
+.container{
+    max-width: 1320px;
+    margin-left: auto;
+    margin-right: auto;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
+    padding-left: var(--gw);
+    padding-right: var(--gw);
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: calc(-1 * var(--gw));
+    margin-right: calc(-1 * var(--gw));
+}
+.col-1{
+    width: 8.3333%;
+}
+.col-2{
+    width: 16.6666%;
+}
+.col-3{
+    width: 25%;
+}
+.col-4{
+    width: 33.3333%;
+}
+.col-5{
+    width: 41.6666%;
+}
+.col-6{
+    width: 50%;
+}
+.col-7{
+    width: 58.3333%;
+}
+.col-8{
+    width: 66.6666%;
+}
+.col-9{
+    width: 75%;
+}
+.col-10{
+    width: 83.3333%;
+}
+.col-11{
+    width: 91.6666%;
+}
+.col-12{
+    width: 100%;
+}
+.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12{
+    padding-left: var(--gw);
+    padding-right: var(--gw);
+} 
+.text-side{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    gap: 20px;
+    padding-top: 80px;
+}
+.text-side p{
+    color: red;
+    font-family: 'Rajdhani';
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+.text-side h1{
+    color: white;
+    font-family: 'Rajdhani';
+    font-size: 97px;
+    line-height: 90px;
+}
+.text-side h1 span{
+    color: red;
+}
+.text-side h6{
+    color: white;
+    font-size: 20px;
+    font-family: 'Rajdhani';
+
+}
+.text-side .btn{
+    color: black;
+    font-family: 'Rajdhani';
+    padding: 20px;
+    background-color: red;
+    width: 150px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+.btn img{
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+}
+.btn:hover{
+    background-color: white;
 }
